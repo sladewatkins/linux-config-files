@@ -6,7 +6,7 @@ config files in repo: (yes)/no (URL to file in repo)
 -----------------------------------------------
 
 git - https://git-scm.org - 2.34.1 - apt 
-config files in repo: no
+config files in repo: yes = https://gitlab.com/sladewatkins/linux-config-files/-/blob/main/git/git.txt
 
 homebrew - brew.sh - rolling - n/a
 config files in repo: no
