@@ -1,0 +1,6 @@
+commit.gpgsign=true
+# Gitlab credentials, as handled through the Gitlab CLI
+credential.https://gitlab.com.helper=
+credential.https://gitlab.com.helper=!/home/linuxbrew/.linuxbrew/Cellar/glab/1.22.0/bin/glab auth git-credential
+# nano is the editor I use for text (I'm learning vim but am not proficient)
+core.editor=nano
