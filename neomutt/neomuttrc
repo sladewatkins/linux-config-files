@@ -1,0 +1,30 @@
+# nano supported
+set my_name="name"
+set real_name="name"
+set from="email address"
+set use_from = yes
+set text_flowed
+set wrap=78
+set sort = threads
+set editor = "nano"
+set edit_headers = yes
+unset use_domain
+set hostname="domain.tld"
+
+# imap/smtp
+set imap_user = email
+set imap_pass = password
+set smtp_url = "smtps://email@smtp.gmail.com:465"
+set smtp_pass = $imap_pass
+set ssl_starttls=yes
+set ssl_force_tls=yes
+set spoolfile = imaps://imap.gmail.com/INBOX
+set folder = imaps://imap.gmail.com/
+set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
+set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+set mbox="imaps://imap.gmail.com/[Gmail]/All Mail"
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+set move = no
+set imap_keepalive = 900
