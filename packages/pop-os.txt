@@ -1,12 +1,15 @@
 	-- Packages/software I installed --
 	-------- Pop!_OS 22.04 LTS --------
 
-package name - website - version - package src
+package name - website - version - package src/type
 config files in repo: (yes)/no (URL to file in repo)
 -----------------------------------------------
 
-git - https://git-scm.org - 2.34.1 - apt 
+git - https://git-scm.org - ver. 2.34.1 - apt 
 config files in repo: yes = https://gitlab.com/sladewatkins/linux-config-files/-/blob/main/git/git.txt
+
+glab - https://gitlab.com/gitlab-org/cli - ver. 1.22.0 - brew
+config files in repo: no
 
 homebrew - brew.sh - rolling - n/a
 config files in repo: no
@@ -17,5 +20,5 @@ config files in repo: yes = https://gitlab.com/sladewatkins/linux-config-files/-
 terminology - ver. 1.12.1 - apt
 config files in repo: no
 
-thunderbird - https://www.thunderbird.net - ver 102.2.2 - packages.debian.org
+thunderbird - https://www.thunderbird.net - ver. 102.2.2 - packages.debian.org
 config files in repo: no
