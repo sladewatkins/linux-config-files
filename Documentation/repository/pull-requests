@@ -1,0 +1,48 @@
+What this documents: Pull Requests
+Last updated: October 30, 2022
+
+This guide assumes you have already made changes you want to commit upstream.
+
+1. Glossary
+	"Upstream": the original repository, from where forks are made.
+	
+	"Pull requests" / "PR" or "PRs": Also called merge requests, allowing your code
+	to be merged into the upstream repo.
+	
+	"Cherry-picks": When the maintainer of a repository takes and
+	applies your patch directly, without taking a whole set.
+
+2. Best practices
+	a. Base your tree off of a recent version of the upstream repo
+	to avoid conflicts. Conflicts *are* inevitable, but this
+	prevents some severe ones from occurring.
+
+	b. Sign-off ALL commits. This means including "Signed-off-by:"
+	along with your git email address after each commit to your
+	tree. 
+
+	c. When changing individual items, separate them out and
+	submit them as separate patches.
+
+	d. Submit patches To: <lcf@sladewatkins.net>
+	using git send-email, Cc: Slade Watkins <srw@sladewatkins.net>
+	on each one. Please make sure your DKIM and SPF records are
+	valid if sending email from your own domain.
+	
+	e. *NOTE: text/plain ONLY.* ALL text/html mail to that 
+	address will be	considered spam and REJECTED. Also makes 
+	it easier when triaging patches into the repository. Thanks.
+
+3. Submitting pull requests
+	a. Best if you've made a ton of changes. However, make sure
+	individual items being updated are separated into their own
+	commits. That way, if a file needs to be reverted, it isn't
+	also reverting several others. Saves me a headache later.
+	
+	b. You can submit a pull via email, and through Gitlab.
+	For email, address To: Slade Watkins <srw@sladewatkins.net>
+	and Cc: <lcf@sladewatkins.net>. (Note the difference between
+	this and the outline laid out in section 2, entry "d".)
+
+	c. Maintainer(s) reserve(s) the right to reject or approve any and all
+	PRs at their discretion for the upstream repositories.
