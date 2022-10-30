@@ -12,7 +12,7 @@ homebrew - brew.sh - rolling - n/a
 config files in repo: no
 
 neomutt - https://neomutt.org - ver. 20211029 - apt
-config files in repo: yes = https://gitlab.com/sladewatkins/linux-config-files/-/blob/main/neomutt/neomuttrc 
+config files in repo: yes = https://gitlab.com/sladewatkins/linux-config-files/-/blob/main/.neomutt/neomuttrc 
 
 terminology - ver. 1.12.1 - apt
 config files in repo: no
