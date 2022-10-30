@@ -11,9 +11,8 @@ https://gitlab.com/sladewatkins/linux-config-files
 LICENSE file available at
 https://gitlab.com/sladewatkins/linux-config-files/-/blob/main/LICENSE
 
-Submit changes through pull requests and notify me
-via email:
-Slade Watkins <srw@sladewatkins.net>
+Documentation available at 
+https://gitlab.com/sladewatkins/linux-config-files/-/blob/main/Documentation
 
-(In the future, I may create a separate mailing list
-for submitting pulls and patches, but who knows.)
+Maintainer
+Slade Watkins <srw@sladewatkins.net>
